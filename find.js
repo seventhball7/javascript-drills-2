@@ -1,4 +1,4 @@
-function find(elements,cb){
+module.exports=find=(elements,cb)=>{
     const arr=[]
     for(let i=0;i<elements.length;i++){
         
@@ -15,4 +15,4 @@ else
  return arr[0];
     
 }
-module.exports={find};
+//module.exports={find};

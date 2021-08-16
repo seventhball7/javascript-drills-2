@@ -8,5 +8,5 @@ function cb(arr2){
 }
 
 
-let newar=re.find(items,cb);
+let newar=find(items,cb);
 console.log(newar);

@@ -4,4 +4,4 @@ const ires=require('../each.js');
 function cb(a,b){
   console.log(a,b);
 }
-ires.each(items,cb);
+let res=each(items,cb);

@@ -4,5 +4,5 @@ const ires=require('../flatten.js');
 //     return arry;
 
 // }
-let res=ires.flatten(arr);
+let res=flatten(arr);
 console.log(res);

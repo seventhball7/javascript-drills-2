@@ -1,5 +1,5 @@
 
-function each(elements,cback){
+module.exports=each=(elements,cback)=>{
       const arr=[];
     for(var i=0;i<elements.length;i++){
       cback(elements[i],i);
@@ -8,6 +8,6 @@ function each(elements,cback){
   
    
 }
- module.exports={each};
+// module.exports={each};
 
 

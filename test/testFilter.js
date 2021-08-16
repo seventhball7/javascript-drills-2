@@ -4,5 +4,5 @@ function cb(secarr){
     if(secarr)
       return true;
 }
-let res=ires.filter(items,cb);
+let res=filter(items,cb);
 console.log(res);

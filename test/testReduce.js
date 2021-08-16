@@ -5,5 +5,5 @@ function cb(svalue,acc){
     return (svalue,acc);
 
 }
-let res=ires.reduce(items,cb);
+let res=reduce(items,cb);
 console.log(res);

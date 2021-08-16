@@ -3,5 +3,5 @@ let ires=require('../map.js');
 function iteratee(newar){
     return newar;
 }
-let res=ires.map(items, iteratee);
+let res=map(items, iteratee);
 console.log(res);

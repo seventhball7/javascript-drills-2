@@ -1,5 +1,5 @@
 
-function flatten(arr2) {
+module.exports=flatten=(arr2)=>{
     const finalArray = [];
     
     for (let i = 0; i < arr2.length; i++) {
@@ -11,4 +11,4 @@ function flatten(arr2) {
     }
     return finalArray;
   }
-module.exports={flatten};
+//module.exports={flatten};

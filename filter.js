@@ -1,4 +1,4 @@
-function filter(elements,cb){
+module.exports=filter=(elements,cb)=>{
     const arr=[];
     const err=[];
     for(let i=0;i<elements.length;i++){
@@ -14,4 +14,4 @@ else{
     return err;
 }
 }
-module.exports={filter};
+//module.exports={filter};
